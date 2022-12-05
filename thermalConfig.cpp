@@ -2035,7 +2035,7 @@ std::vector<std::string> cpu_sensors_cliffs = {
 		},
 		{
 			TemperatureType::SKIN,
-			{ "xo-therm" },
+			{ "sys-therm6" },
 			"skin",
 			55000,
 			95000,
