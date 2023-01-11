@@ -2125,7 +2125,9 @@ std::vector<std::string> cpu_sensors_cliffs = {
 		{649, anorak_common}, // Halliday Pro
 		{525, neo_common},
 		{554, neo_common},
-		{537, parrot_common},
+		{537, parrot_common}, //Netrani mobile
+		{583, parrot_common}, //Netrani mobile without modem
+		{613, parrot_common}, //Netrani APQ
 		{568, ravelin_common}, //Clarence Mobile
 		{581, ravelin_common}, //Clarence IOT
 		{582, ravelin_common}, //Clarence IOT without modem
@@ -2168,7 +2170,9 @@ std::vector<std::string> cpu_sensors_cliffs = {
 		{640, volcano_specific}, //milos6
 		{549, anorak_specific},
 		{649, anorak_specific}, // Halliday Pro
-		{537, parrot_specific},
+		{537, parrot_specific}, //Netrani mobile
+		{583, parrot_specific}, //Netrani mobile without modem
+		{613, parrot_specific}, //Netrani APQ
 		{568, ravelin_specific}, //Clarence Mobile
 		{581, ravelin_specific}, //Clarence IOT
 		{582, ravelin_specific}, //Clarence IOT without modem
