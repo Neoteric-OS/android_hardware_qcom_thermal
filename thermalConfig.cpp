@@ -2131,6 +2131,7 @@ std::vector<std::string> cpu_sensors_cliffs = {
 		{568, ravelin_common}, //Clarence Mobile
 		{581, ravelin_common}, //Clarence IOT
 		{582, ravelin_common}, //Clarence IOT without modem
+		{591, waipio_common}, //ukee
 	};
 
 	const std::unordered_map<int, std::vector<struct target_therm_cfg>>
@@ -2176,6 +2177,7 @@ std::vector<std::string> cpu_sensors_cliffs = {
 		{568, ravelin_specific}, //Clarence Mobile
 		{581, ravelin_specific}, //Clarence IOT
 		{582, ravelin_specific}, //Clarence IOT without modem
+		{591, waipio_specific}, //ukee
 	};
 
 	const std::unordered_map<int, bool>
