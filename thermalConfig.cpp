@@ -2204,6 +2204,7 @@ std::vector<std::string> cpu_sensors_cliffs = {
 		{537, parrot_common}, //Netrani mobile
 		{583, parrot_common}, //Netrani mobile without modem
 		{613, parrot_common}, //Netrani APQ
+		{631, parrot_common},
 		{568, ravelin_common}, //Clarence Mobile
 		{581, ravelin_common}, //Clarence IOT
 		{582, ravelin_common}, //Clarence IOT without modem
@@ -2253,6 +2254,7 @@ std::vector<std::string> cpu_sensors_cliffs = {
 		{537, parrot_specific}, //Netrani mobile
 		{583, parrot_specific}, //Netrani mobile without modem
 		{613, parrot_specific}, //Netrani APQ
+		{631, parrot_specific},
 		{568, ravelin_specific}, //Clarence Mobile
 		{581, ravelin_specific}, //Clarence IOT
 		{582, ravelin_specific}, //Clarence IOT without modem
