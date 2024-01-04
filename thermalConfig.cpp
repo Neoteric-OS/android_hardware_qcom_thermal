@@ -2493,6 +2493,7 @@ std::vector<std::string> cpu_sensors_cliffs = {
 		{582, ravelin_common}, //Clarence IOT without modem
 		{591, waipio_common}, //ukee
 		{608, crow_common}, //crow
+		{644, crow_common}, //crow 4G
 		{532, lemansAU_common}, //Lemans auto
 	};
 
@@ -2544,6 +2545,7 @@ std::vector<std::string> cpu_sensors_cliffs = {
 		{582, ravelin_specific}, //Clarence IOT without modem
 		{591, waipio_specific}, //ukee
 		{608, crow_specific}, //crow
+		{644, crow_specific}, //crow
 	};
 
 	const std::unordered_map<int, bool>
