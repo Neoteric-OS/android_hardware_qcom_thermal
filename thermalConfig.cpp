@@ -1484,6 +1484,24 @@ namespace thermal {
 			115000,
 			true,
 		},
+                // Google specific changes for aurora vxp product.
+		{
+			TemperatureType::SKIN,
+			{ "disp-lea-right" },
+			"SKIN-DISP-LEA",
+			65000,
+			85000,
+			true,
+		},
+		{
+			TemperatureType::SKIN,
+			{ "disp-lea-left" },
+			"SKIN-DISP-LEA",
+			65000,
+			85000,
+			true,
+		},
+
 	};
 
 	std::vector<std::string> cpu_sensors_parrot =
