@@ -2652,6 +2652,9 @@ std::vector<std::string> cpu_sensors_cliffs = {
 		{532, lemansAU_common}, //Lemans auto
 		{672, seraph_common}, //Balsam-SAR1250P
 		{673, seraph_common}, //Balsam-SAR2230P
+		{579, neo_common},
+		{739, neo_common}, //Aliso
+		{740, neo_common}, //Aliso
 	};
 
 	const std::unordered_map<int, std::vector<struct target_therm_cfg>>
